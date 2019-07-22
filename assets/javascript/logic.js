@@ -1,15 +1,16 @@
 $(document).ready(function () {
 
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyA4Y6Ywc3MMHCQ7tZHkMyH1l9vx_qSRA6M",
-    authDomain: "train-schedule-5f60e.firebaseapp.com",
-    databaseURL: "https://train-schedule-5f60e.firebaseio.com/",
-    storageBucket: "train-schedule-5f60e.appspot.com",
-    messagingSenderId: 287123784516
-  };
-  firebase.initializeApp(config);
-
+ var firebaseConfig = {
+  apiKey: "AIzaSyCfdc_Hr4eFao2xmEhQHTMg2MKUjNQN97M",
+  authDomain: "train-75db0.firebaseapp.com",
+  databaseURL: "https://train-75db0.firebaseio.com",
+  projectId: "train-75db0",
+  storageBucket: "",
+  messagingSenderId: "327087779041",
+  appId: "1:327087779041:web:78d7553527dbbedc"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
   var database = firebase.database();
 
   // Capture Button Click
